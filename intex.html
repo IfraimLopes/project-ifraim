@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/mediaqueries.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="imagens/ifraimlogo.png"
+      type="image/x-icon"
+    />
+    <title>Ifraim Lopes</title>
+  </head>
+  <body>
+    <header>
+      <span id="menu" class="material-icons" onclick="clickMenu()">menu</span>
+      <nav id="itens">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Sobre</a>
+      </nav>
+      <img src="imagens/ifraimlogo.png" alt="logo" />
+    </header>
+
+    <main>
+      <section>
+        <div id="image">
+          <img src="imagens/ifraim1.jpg" alt="Ifraim Lopes" />
+        </div>
+
+        <div id="texto">
+          <p class="primeiro">Hello I'M</p>
+          <h1>Ifraim Lutónadio Lopes</h1>
+          <p>And I'M <span>Desenvolver Web</span></p>
+          <p>
+            O meu nome é Ifraim Lopes Estudante de Tecnológias <br />
+            iniciante em HTML, CSS, JavaScript
+          </p>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=100073629188725"
+            target="_blank"
+            rel="external"
+            class="ft"
+            ><img src="imagens/logo-facebook.jpg" alt="logo-facebook"
+          /></a>
+          <a
+            href="https://www.instagram.com/_.ifraim"
+            target="_blank"
+            rel="external"
+            class="ft"
+            ><img src="imagens/logo-instagram.jpg" alt="logo-instagram"
+          /></a>
+          <a
+            href="https://www.youtube.com/@Ifraimprivado"
+            target="_blank"
+            rel="external"
+            class="ft"
+            ><img src="imagens/logo-youtube.jpg" alt="logo-youtube"
+          /></a>
+
+          <p class="tel">Contact</p>
+        </div>
+      </section>
+    </main>
+    <script>
+      function clickMenu() {
+      if ( itens.style.display =='block'){
+        itens.style.display = 'none'
+      }else {
+        itens.style.display = 'block'
+      } 
+      }
+    </script>
+  </body>
+</html>
