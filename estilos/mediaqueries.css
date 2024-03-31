@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  header > span {
+    color: white;
+  }
+
+  main {
+    width: 90vw;
+    height: 120vh;
+  }
+
+  #image {
+    display: inline-block;
+    margin: auto;
+    margin: 80px;
+    margin-top: 20px;
+  }
+
+  div > img {
+    width: 300px;
+    height: 250px;
+  }
+
+  #texto {
+    display: block;
+    margin-right: 20px;
+    margin-top: 190px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .tel {
+    margin: auto;
+  }
+}
