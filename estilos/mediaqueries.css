@@ -1,9 +1,39 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 600px) {
-  nav {
-    display: none;
+  
+  #itens {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 12vh;
+    width: 30vw;
+    height: 60vh;
+    left: 50px;
+    
+    
   }
+
+  #itens > a{
+    padding: 20px;
+    gap: 1em;
+    flex-direction: column;
+  }
+
+   
+
+
+  
+
+
+
+
+  body{
+    overflow: hidden;
+  }
+  
+  
 
   #menu {
     display: block;
@@ -14,32 +44,46 @@
     color: white;
   }
 
-  main {
+  main,html  {
     width: 90vw;
-    height: 90vh;
+    height: 80vh;
   }
 
   #image {
-    display: inline-block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
     margin: 80px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    padding-top: 1px;
+    margin-right: 40px;
   }
 
   div > img {
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
   }
 
   #texto {
     display: block;
-    margin-right: 20px;
-    margin-top: 190px;
+    align-items: center;
     margin: auto;
+    margin-bottom: 30px;
+    margin-left: 50px;
     text-align: center;
+    justify-content: center;
+    padding-bottom: 90px;
+    
+   
+  }
+
+  #itens{
+    display: none;
   }
 
   .tel {
     margin: auto;
+    margin-bottom: 20px;
   }
 }
